@@ -25,6 +25,7 @@ def make_key():
 
     if len(num) != 6 or not num.isdigit():
         messagebox.showerror("Ошибка", "Нужно ввести ровно 6 цифр!")
+        return
 
     part1 = list(num[0:3])
     part2 = list(num[3:6])
